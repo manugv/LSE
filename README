@@ -1,0 +1,29 @@
+Requirements :
+
+- Intel compiler
+- MKL libraries for FFTWs and LAPACK
+
+If requirements are satisified
+Compile using :
+make
+
+Output is :
+corr
+
+Run corr to compute LSE correlations
+
+For information on :
+In main file one can edit
+- first file to read
+- last file to read
+- number of files
+- event plane location needs to be set
+
+
+In mod_geometry :
+- fix parameters connected with size of domain and all
+- path to database
+- path for output
+
+
+
