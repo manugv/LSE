@@ -1,4 +1,4 @@
-* Linear Stochastic estimate code that was developed my PhD in 2013.
+* Linear Stochastic estimate code that was developed during my PhD in 2013.
 
 This code computes the linear estimate coefficients ($L_{ij}$) to compute conditional eddies. This is computed using equation 2.2 in document (thesis) https://doi.org/10.4233/uuid:e9962229-d045-4614-876e-de3e7e5f188f
 
@@ -6,7 +6,7 @@ This code computes the linear estimate coefficients ($L_{ij}$) to compute condit
 ** Requirements
    - Intel compiler
    - MKL libraries for FFTWs and LAPACK
-   - GCC can also be used with LAPACK, FFTW
+   - GCC can also be used with LAPACK, FFTW but makefile needs to be changed.
 
 ```bash
 	$make      # create excutable

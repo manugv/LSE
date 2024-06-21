@@ -19,7 +19,7 @@ contains
     return
   end subroutine fft_ref_plane
   
-  subroutine fft2d(pu,pv,pw,event_u,event_v,event_w,u_tmp,v_tmp,w_tmp)
+  subroutine fft2d(pu, pv, pw,event_u, event_v, event_w, u_tmp, v_tmp, w_tmp)
     real(kind=dp), dimension(:,:), intent(in)     :: pu,pv,pw
     complex(kind=dp), dimension(:,:), intent(in)  :: event_u,event_v,event_w
     real(kind=dp), dimension(:,:,:), intent(out)  :: u_tmp,v_tmp,w_tmp
